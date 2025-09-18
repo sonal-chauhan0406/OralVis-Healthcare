@@ -64,8 +64,8 @@ Watch the full OralVis App Demo here:
 
 ## **👨‍💻 Author**
 
-**Sonal Chauhan**
-📧 Email: [scstmarian911@gmail.com]
-🔗 LinkedIn: [https://www.linkedin.com/in/sonal-chauhan-s0419]
+**Shushant GH**
+📧 Email: [shushant192004@gmail.com]
+🔗 LinkedIn: [www.linkedin.com/in/shushant336]
 
 

@@ -1,0 +1,58 @@
+    [versions]
+    agp = "8.7.3"
+    composeBomVersion = "2025.01.00"
+    kotlin = "2.0.0"
+    coreKtx = "1.16.0"
+    junit = "4.13.2"
+    junitVersion = "1.2.1"
+    espressoCore = "3.6.1"
+    lifecycleRuntimeKtx = "2.9.0"
+    activityCompose = "1.10.1"
+    composeBom = "2024.04.01"
+    compose = "1.7.0"
+    material3 = "1.3.0"
+    lifecycle = "2.7.0"
+    camerax = "1.3.4"
+    room = "2.6.1"
+    coil = "2.5.0"
+    firebaseCrashlyticsBuildtools = "3.0.6"
+    navigationComposeJvmstubs = "2.9.3"
+
+    [libraries]
+    androidx-compose-bom-v20250100 = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+    androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+    junit = { group = "junit", name = "junit", version.ref = "junit" }
+    androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+    androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+    androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+    androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+    androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+    androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+    androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+    androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+    androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+    androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+    androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+    androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+    androidx-camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "camerax" }
+    androidx-camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+    androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+    androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
+    androidx-camera-extensions = { group = "androidx.camera", name = "camera-extensions", version.ref = "camerax" }
+
+    androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+    androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+    androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+    coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+    firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+    androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version = "2.8.0" }
+
+
+    [plugins]
+    android-application = { id = "com.android.application", version.ref = "agp" }
+    kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+    kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+    kotlin-kapt = { id = "org.jetbrains.kotlin.kapt" }
+
+
+
